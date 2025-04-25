@@ -1,0 +1,1602 @@
+[
+    {
+        "captionA": "an old person kisses a young person",
+        "captionB": "a young person kisses an old person"
+    },
+    {
+        "captionA": "the taller person hugs the shorter person",
+        "captionB": "the shorter person hugs the taller person"
+    },
+    {
+        "captionA": "the masked wrestler hits the unmasked wrestler",
+        "captionB": "the unmasked wrestler hits the masked wrestler"
+    },
+    {
+        "captionA": "a person watches an animal",
+        "captionB": "an animal watches a person"
+    },
+    {
+        "captionA": "the person without earrings pays the person with earrings",
+        "captionB": "the person with earrings pays the person without earrings"
+    },
+    {
+        "captionA": "a bird eats a snake",
+        "captionB": "a snake eats a bird"
+    },
+    {
+        "captionA": "a plant was harmed by another organism, and that organism broke the plant into pieces",
+        "captionB": "another organism was harmed by a plant, and that plant broke the organism into pieces"
+    },
+    {
+        "captionA": "a bottle is in water",
+        "captionB": "water is in a bottle"
+    },
+    {
+        "captionA": "a tree smashed into a car",
+        "captionB": "a car smashed into a tree"
+    },
+    {
+        "captionA": "people fall on the leaves",
+        "captionB": "the leaves fall on people"
+    },
+    {
+        "captionA": "the sail rests below the water",
+        "captionB": "the water rests below the sail"
+    },
+    {
+        "captionA": "there is a table below someone",
+        "captionB": "there is someone below a table"
+    },
+    {
+        "captionA": "the image shows a computer on top of books",
+        "captionB": "the image shows books on top of a computer"
+    },
+    {
+        "captionA": "a caterpillar with some plants",
+        "captionB": "a plant with some caterpillars"
+    },
+    {
+        "captionA": "there is a mug in some grass",
+        "captionB": "there is some grass in a mug"
+    },
+    {
+        "captionA": "there are more skiers than snowboarders",
+        "captionB": "there are more snowboarders than skiers"
+    },
+    {
+        "captionA": "there are fewer forks than spoons",
+        "captionB": "there are fewer spoons than forks"
+    },
+    {
+        "captionA": "there are more ladybugs than flowers",
+        "captionB": "there are more flowers than ladybugs"
+    },
+    {
+        "captionA": "there is less orange juice than milk",
+        "captionB": "there is less milk than orange juice"
+    },
+    {
+        "captionA": "there is more dirt than empty space in the jar",
+        "captionB": "there is more empty space than dirt in the jar"
+    },
+    {
+        "captionA": "there is a bit less milk chocolate than white chocolate",
+        "captionB": "there is a bit less white chocolate than milk chocolate"
+    },
+    {
+        "captionA": "a person sits and a dog stands",
+        "captionB": "a person stands and a dog sits"
+    },
+    {
+        "captionA": "The person with more facial hair lies awake while the other sleeps",
+        "captionB": "The person with more facial hair sleeps while the other lies awake"
+    },
+    {
+        "captionA": "the person in the middle is floating and some others are standing",
+        "captionB": "the person in the middle is standing and some others are floating"
+    },
+    {
+        "captionA": "the person closer to the camera weightlifts and the person farther from the camera runs",
+        "captionB": "the person closer to the camera runs and the person farther from the camera weightlifts"
+    },
+    {
+        "captionA": "the person with the white collared shirt waters the plant while the other holds it",
+        "captionB": "the person with the white collared shirt holds the plant while the other waters it"
+    },
+    {
+        "captionA": "the taller person chops food and the shorter person eats food",
+        "captionB": "the taller person eats food and the shorter person chops food"
+    },
+    {
+        "captionA": "the person with the ponytail packs stuff and other buys it",
+        "captionB": "the person with the ponytail buys stuff and other packs it"
+    },
+    {
+        "captionA": "a person walking in a field of yellow flowers with a red dress",
+        "captionB": "a person walking in a field of red flowers with a yellow dress"
+    },
+    {
+        "captionA": "a brown dog is on a white couch",
+        "captionB": "a white dog is on a brown couch"
+    },
+    {
+        "captionA": "a blue bird is next to a red berry",
+        "captionB": "a red bird is next to a blue berry"
+    },
+    {
+        "captionA": "The red book is above the yellow book and below the blue book",
+        "captionB": "The yellow book is above the blue book and below the red book"
+    },
+    {
+        "captionA": "astronauts in blue suits with a red planet in the background",
+        "captionB": "astronauts in red suits with a blue planet in the background"
+    },
+    {
+        "captionA": "the square table has a round base",
+        "captionB": "the round table has a square base"
+    },
+    {
+        "captionA": "pointy bushes are behind rectangular bushes",
+        "captionB": "rectangular bushes are behind pointy bushes"
+    },
+    {
+        "captionA": "a circular sign is above a rectangular sign",
+        "captionB": "a rectangular sign is above a circular sign"
+    },
+    {
+        "captionA": "a wood chess piece rests on metal objects",
+        "captionB": "a metal chess piece rests on wood objects"
+    },
+    {
+        "captionA": "soft shoes are on a smooth floor",
+        "captionB": "smooth shoes are on a soft floor"
+    },
+    {
+        "captionA": "the happy person is on the right and the sad person is on the left",
+        "captionB": "the sad person is on the right and the happy person is on the left"
+    },
+    {
+        "captionA": "the hurt person is on the left and the helpful person is on the right",
+        "captionB": "the helpful person is on the left and the hurt person is on the right"
+    },
+    {
+        "captionA": "the more content person has the healthier food and the less content person has the less healthy food",
+        "captionB": "the less content person has the healthier food and the more content person has the less healthy food"
+    },
+    {
+        "captionA": "the orange lollipop is sad and the red lollipop is surprised",
+        "captionB": "the orange lollipop is surprised and the red lollipop is sad"
+    },
+    {
+        "captionA": "the larger person wears yellow and the smaller person does not",
+        "captionB": "the smaller person wears yellow and the larger person does not"
+    },
+    {
+        "captionA": "a big cat is next to a small dog",
+        "captionB": "a small cat is next to a big dog"
+    },
+    {
+        "captionA": "the heavy oncoming traffic is contrasted with the light outgoing traffic",
+        "captionB": "the light oncoming traffic is contrasted with the heavy outgoing traffic"
+    },
+    {
+        "captionA": "a cold drink on a hot day",
+        "captionB": "a hot drink on a cold day"
+    },
+    {
+        "captionA": "a person is drinking now and eating later",
+        "captionB": "a person is drinking later and eating now"
+    },
+    {
+        "captionA": "the sailboat sails close but the beach is far away",
+        "captionB": "the sailboat sails far away but the beach is close"
+    },
+    {
+        "captionA": "the passenger is riding inattentive to the road and the driver is driving attentive to the road",
+        "captionB": "the passenger is riding attentive to the road and the driver is driving inattentive to the road"
+    },
+    {
+        "captionA": "it wears a hat but the person doesn't",
+        "captionB": "the person wears a hat but it doesn't"
+    },
+    {
+        "captionA": "the person with green legs is running quite slowly and the red legged one runs faster",
+        "captionB": "the person with green legs is running faster and the red legged one runs quite slowly"
+    },
+    {
+        "captionA": "a person is in the water and close to the sand",
+        "captionB": "a person is close to the water and in the sand"
+    },
+    {
+        "captionA": "a frog is above rocks which are under the water",
+        "captionB": "a frog is under rocks which are above the water"
+    },
+    {
+        "captionA": "driving off the road and on the unpaved terrain",
+        "captionB": "driving on the road and off the unpaved terrain"
+    },
+    {
+        "captionA": "someone is in a helicopter with a car",
+        "captionB": "someone is with a helicopter in a car"
+    },
+    {
+        "captionA": "the green one can fit inside the blue one and the blue one can fit outside the green one",
+        "captionB": "the green one can fit outside the blue one and the blue one can fit inside the green one"
+    },
+    {
+        "captionA": "jumping away from the photographer and towards the others",
+        "captionB": "jumping towards the photographer and away from the others"
+    },
+    {
+        "captionA": "someone bakes the dough before the dough is eaten",
+        "captionB": "the dough is eaten before someone bakes the dough"
+    },
+    {
+        "captionA": "it hatched before it was eaten",
+        "captionB": "it was eaten before it hatched"
+    },
+    {
+        "captionA": "there are three bananas and two apples",
+        "captionB": "there are two bananas and three apples"
+    },
+    {
+        "captionA": "someone has loaded their plate with one of the toast slices and two of the eggs",
+        "captionB": "someone has loaded their plate with two of the toast slices and one of the eggs"
+    },
+    {
+        "captionA": "there are three people and two windows",
+        "captionB": "there are two people and three windows"
+    },
+    {
+        "captionA": "there are 50 stars on the right flag and 5 stars on the left flag",
+        "captionB": "there are 5 stars on the right flag and 50 stars on the left flag"
+    },
+    {
+        "captionA": "no people wear blue shirts and six people wear white shirts",
+        "captionB": "six people wear blue shirts and no people wear white shirts"
+    },
+    {
+        "captionA": "the dog's leg is on the person's torso",
+        "captionB": "the person's leg is on the dog's torso"
+    },
+    {
+        "captionA": "the animal's eyes are bigger than the person's",
+        "captionB": "the person's eyes are bigger than the animal's"
+    },
+    {
+        "captionA": "the taller person's arm is around the shorter person's shoulder",
+        "captionB": "the shorter person's arm is around the taller person's shoulder"
+    },
+    {
+        "captionA": "the person in a brown coat looks back and the person in a black coat looks forward",
+        "captionB": "the person in a black coat looks back and the person in a brown coat looks forward"
+    },
+    {
+        "captionA": "it ran away while they pursued",
+        "captionB": "they ran away while it pursued"
+    },
+    {
+        "captionA": "almost everyone is in a boat and one is swimming",
+        "captionB": "one is in a boat and almost everyone is swimming"
+    },
+    {
+        "captionA": "the person with the lighter shoes is holding an emoji and the person with the darker shoes isn't",
+        "captionB": "the person with the darker shoes is holding an emoji and the person with the lighter shoes isn't"
+    },
+    {
+        "captionA": "the person wearing neutral colors poses and the person wearing brighter colors takes a picture",
+        "captionB": "the person wearing brighter colors poses and the person wearing neutral colors takes a picture"
+    },
+    {
+        "captionA": "it's a fire truck",
+        "captionB": "it's a truck fire"
+    },
+    {
+        "captionA": "watching the present",
+        "captionB": "presenting the watch"
+    },
+    {
+        "captionA": "walking out on a rock",
+        "captionB": "rocking out on a walk"
+    },
+    {
+        "captionA": "the kid with the magnifying glass looks at them",
+        "captionB": "the kid looks at them with the magnifying glass"
+    },
+    {
+        "captionA": "the person with the kids is sitting",
+        "captionB": "the person is sitting with the kids"
+    },
+    {
+        "captionA": "the people with shoes are touching each other",
+        "captionB": "the people are touching each other with shoes"
+    },
+    {
+        "captionA": "someone with an apple is hurt by a tree",
+        "captionB": "someone is hurt by a tree with an apple"
+    },
+    {
+        "captionA": "the person that is on the table is eating the food",
+        "captionB": "the person is eating the food that is on the table"
+    },
+    {
+        "captionA": "the watering can is larger than the pot",
+        "captionB": "the pot is larger than the watering can"
+    },
+    {
+        "captionA": "they hold a suitcase handle with their left hand and they hold a passport with their right hand",
+        "captionB": "they hold a passport with their left hand and they hold a suitcase handle with their right hand"
+    },
+    {
+        "captionA": "the person with the patterned shirt is curly-haired and the other is straight-haired",
+        "captionB": "the person with the patterned shirt is straight-haired and the other is curly-haired"
+    },
+    {
+        "captionA": "a diagram showing movement from right to left",
+        "captionB": "a diagram showing movement from left to right"
+    },
+    {
+        "captionA": "the flip flops are too big for these feet",
+        "captionB": "the feet are too big for these flip flops"
+    },
+    {
+        "captionA": "the person who is wearing a crown is kissing a frog",
+        "captionB": "the person is kissing a frog who is wearing a crown"
+    },
+    {
+        "captionA": "a dog sitting on a couch with a person lying on the floor",
+        "captionB": "a person lying on a couch with a dog sitting on the floor"
+    },
+    {
+        "captionA": "The uncaged bird has an opened cage door",
+        "captionB": "The caged bird has an unopened cage door"
+    },
+    {
+        "captionA": "meat with potatoes",
+        "captionB": "potatoes with meat"
+    },
+    {
+        "captionA": "the person in pink was close to not winning",
+        "captionB": "the person in pink was not close to winning"
+    },
+    {
+        "captionA": "two humans and one wheel",
+        "captionB": "two wheels and one human"
+    },
+    {
+        "captionA": "clothing on lines",
+        "captionB": "lines on clothing"
+    },
+    {
+        "captionA": "someone talks on the phone angrily while another person sits happily",
+        "captionB": "someone talks on the phone happily while another person sits angrily"
+    },
+    {
+        "captionA": "two boats and one direction down the stream",
+        "captionB": "one boat and two directions down the stream"
+    },
+    {
+        "captionA": "The dog rides without a visible tongue",
+        "captionB": "The dog rides with a visible tongue out"
+    },
+    {
+        "captionA": "handing a hammer",
+        "captionB": "hammering a hand"
+    },
+    {
+        "captionA": "leaves its shedding",
+        "captionB": "shedding its leaves"
+    },
+    {
+        "captionA": "they are using no bait but still got fish",
+        "captionB": "they are using bait but still got no fish"
+    },
+    {
+        "captionA": "someone on the ground is spraying water towards a vehicle",
+        "captionB": "someone is on a vehicle spraying water towards the ground"
+    },
+    {
+        "captionA": "the dog wears as a hat what someone would normally bite",
+        "captionB": "the dog bites what someone would normally wear as a hat"
+    },
+    {
+        "captionA": "the happy one is on the left and the upset one is on the right",
+        "captionB": "the upset one is on the left and the happy one is on the right"
+    },
+    {
+        "captionA": "fake mustache and real hair on head",
+        "captionB": "real mustache and fake hair on head"
+    },
+    {
+        "captionA": "real cat with toy baby",
+        "captionB": "toy cat with real baby"
+    },
+    {
+        "captionA": "the lion is loud and the lionness is quiet",
+        "captionB": "the lion is quiet and the lionness is loud"
+    },
+    {
+        "captionA": "there is a pink couch with green pillows",
+        "captionB": "there is a green couch with pink pillows"
+    },
+    {
+        "captionA": "light colored dog with dark colored cat",
+        "captionB": "dark colored dog with light colored cat"
+    },
+    {
+        "captionA": "someone is wearing a black hat and yellow shirt",
+        "captionB": "someone is wearing a yellow hat and black shirt"
+    },
+    {
+        "captionA": "black socks and orange shoes",
+        "captionB": "orange socks and black shoes"
+    },
+    {
+        "captionA": "red building with white shutters",
+        "captionB": "white building with red shutters"
+    },
+    {
+        "captionA": "blue pants and green top",
+        "captionB": "green pants and blue top"
+    },
+    {
+        "captionA": "there's one blue and many yellow balls",
+        "captionB": "there's one yellow and many blue balls"
+    },
+    {
+        "captionA": "there are more silver coins than gold coins",
+        "captionB": "there are more gold coins than silver coins"
+    },
+    {
+        "captionA": "the red team kicking the ball directly next to the blue team",
+        "captionB": "the blue team kicking the ball directly next to the red team"
+    },
+    {
+        "captionA": "black dog wearing a brown sweater",
+        "captionB": "brown dog wearing a black sweater"
+    },
+    {
+        "captionA": "one green apple surrounded by a bunch of red apples",
+        "captionB": "one red apple surrounded by a bunch of green apples"
+    },
+    {
+        "captionA": "person in white is reading the orange book",
+        "captionB": "person in orange is reading the white book"
+    },
+    {
+        "captionA": "the children are being quiet while the adult is loud",
+        "captionB": "the children are being loud while the adult is quiet"
+    },
+    {
+        "captionA": "the circular mirror is on the left and the rectangular mirror is on the right",
+        "captionB": "the rectangular mirror is on the left and the circular mirror is on the right"
+    },
+    {
+        "captionA": "circular food on heart-shaped wood",
+        "captionB": "heart-shaped food on circular wood"
+    },
+    {
+        "captionA": "the dress on the left is long and the dress on the right is short",
+        "captionB": "the dress on the left is short and the dress on the right is long"
+    },
+    {
+        "captionA": "the balloon in the middle has less air and the other balloons have more air",
+        "captionB": "the balloon in the middle has more air and the other balloons have less air"
+    },
+    {
+        "captionA": "the pool has no people and the area around it has a lot of people",
+        "captionB": "the pool has a lot of people and the area around it has no people"
+    },
+    {
+        "captionA": "big fish beside a small person",
+        "captionB": "small fish beside a big person"
+    },
+    {
+        "captionA": "the train is moving fast while the person is still",
+        "captionB": "the train is still while the person is moving fast"
+    },
+    {
+        "captionA": "they're enjoying hot water on a cold day",
+        "captionB": "they're enjoying cold water on a hot day"
+    },
+    {
+        "captionA": "concrete floors with wood walls",
+        "captionB": "wood floors with concrete walls"
+    },
+    {
+        "captionA": "the person on the left has curly hair and the person on the right has straight hair",
+        "captionB": "the person on the left has straight hair and the person on the right has curly hair"
+    },
+    {
+        "captionA": "there's a metal bottle with a plastic lid",
+        "captionB": "there's a plastic bottle with a metal lid"
+    },
+    {
+        "captionA": "the fruit is heavy while the junk food is light",
+        "captionB": "the fruit is light while the junk food is heavy"
+    },
+    {
+        "captionA": "the car is sitting upside down while the person is standing rightside up",
+        "captionB": "the car is sitting rightside up while the person is standing upside down"
+    },
+    {
+        "captionA": "the cup on the left is filled first and the cup on the right is filled second",
+        "captionB": "the cup on the left is filled second and the cup on the right is filled first"
+    },
+    {
+        "captionA": "milk cow",
+        "captionB": "cow milk"
+    },
+    {
+        "captionA": "there is a clock wall",
+        "captionB": "there is a wall clock"
+    },
+    {
+        "captionA": "there is a split banana",
+        "captionB": "there is a banana split"
+    },
+    {
+        "captionA": "there are two people and a bunch of horses",
+        "captionB": "there are a bunch of people and two horses"
+    },
+    {
+        "captionA": "three white and two brown eggs",
+        "captionB": "two white and three brown eggs"
+    },
+    {
+        "captionA": "the plastic is in the fish",
+        "captionB": "the fish is in the plastic"
+    },
+    {
+        "captionA": "the dog's paw is on the cat's face",
+        "captionB": "the cat's paw is on the dog's face"
+    },
+    {
+        "captionA": "the computer's screen is on and the phone's screen is off",
+        "captionB": "the phone's screen is on and the computer's screen is off"
+    },
+    {
+        "captionA": "the dog is in the driver's seat and the person is in the passenger's seat",
+        "captionB": "the dog is in the passenger's seat and the person is in the driver's seat"
+    },
+    {
+        "captionA": "there are more trees than people",
+        "captionB": "there are more people than trees"
+    },
+    {
+        "captionA": "there are more computers than people",
+        "captionB": "there are more people than computers"
+    },
+    {
+        "captionA": "there is more wood than metal",
+        "captionB": "there is more metal than wood"
+    },
+    {
+        "captionA": "there are more hats than people",
+        "captionB": "there are more people than hats"
+    },
+    {
+        "captionA": "there are more people than stools",
+        "captionB": "there are more stools than people"
+    },
+    {
+        "captionA": "there is more red wine than white wine",
+        "captionB": "there is more white wine than red wine"
+    },
+    {
+        "captionA": "there's more milk than coffee",
+        "captionB": "there's more coffee than milk"
+    },
+    {
+        "captionA": "there's more cereal in the bowl than milk",
+        "captionB": "there's more milk in the bowl than cereal"
+    },
+    {
+        "captionA": "boat sail",
+        "captionB": "sail boat"
+    },
+    {
+        "captionA": "boat house",
+        "captionB": "house boat"
+    },
+    {
+        "captionA": "check a rip",
+        "captionB": "rip a check"
+    },
+    {
+        "captionA": "dress the display",
+        "captionB": "display the dress"
+    },
+    {
+        "captionA": "spoon holding honey",
+        "captionB": "honey holding spoon"
+    },
+    {
+        "captionA": "books holding up a person",
+        "captionB": "a person holding up books"
+    },
+    {
+        "captionA": "a dog is using a wheelchair next to a person",
+        "captionB": "a person is using a wheelchair next to a dog"
+    },
+    {
+        "captionA": "some plants surrounding a lightbulb",
+        "captionB": "a lightbulb surrounding some plants"
+    },
+    {
+        "captionA": "a more lightly-colored dog is holding a toy next to a black dog",
+        "captionB": "a black dog is holding a toy next to a more lightly-colored dog"
+    },
+    {
+        "captionA": "the flowers are taller than the people",
+        "captionB": "the people are taller than the flowers"
+    },
+    {
+        "captionA": "there's a human in a stroller next to a dog",
+        "captionB": "there's a dog in a stroller next to a human"
+    },
+    {
+        "captionA": "a person is casting a shadow beside a ball",
+        "captionB": "a ball is casting a shadow beside a person"
+    },
+    {
+        "captionA": "its tail is shorter than its body",
+        "captionB": "its body is shorter than its tail"
+    },
+    {
+        "captionA": "the child is throwing the adult the ball",
+        "captionB": "the adult is throwing the child the ball"
+    },
+    {
+        "captionA": "a person underneath lights",
+        "captionB": "lights underneath a person"
+    },
+    {
+        "captionA": "some green on the ball",
+        "captionB": "the ball on some green"
+    },
+    {
+        "captionA": "mind in the clouds",
+        "captionB": "clouds in the mind"
+    },
+    {
+        "captionA": "there's a phone on a map",
+        "captionB": "there's a map on a phone"
+    },
+    {
+        "captionA": "a person on a rock next to a dog",
+        "captionB": "a dog on a rock next to a person"
+    },
+    {
+        "captionA": "an adult is flexing beside a child",
+        "captionB": "a child is flexing beside an adult"
+    },
+    {
+        "captionA": "the person is looking at the dog",
+        "captionB": "the dog is looking at the person"
+    },
+    {
+        "captionA": "a cat is underneath a red blanket",
+        "captionB": "a red blanket is underneath a cat"
+    },
+    {
+        "captionA": "the person is bigger than the house",
+        "captionB": "the house is bigger than the person"
+    },
+    {
+        "captionA": "the person is underneath the car",
+        "captionB": "the car is underneath the person"
+    },
+    {
+        "captionA": "the water is filled with plastic",
+        "captionB": "the plastic is filled with water"
+    },
+    {
+        "captionA": "an apple is on a target",
+        "captionB": "a target is on an apple"
+    },
+    {
+        "captionA": "plant made out of a light bulb",
+        "captionB": "light bulb made out of a plant"
+    },
+    {
+        "captionA": "parent pointing at child",
+        "captionB": "child pointing at parent"
+    },
+    {
+        "captionA": "the person reached the base before the ball",
+        "captionB": "the ball reached the base before the person"
+    },
+    {
+        "captionA": "ice being dumped on top of fish",
+        "captionB": "fish being dumped on top of ice"
+    },
+    {
+        "captionA": "an adult kisses a child",
+        "captionB": "a child kisses an adult"
+    },
+    {
+        "captionA": "there's a dog in a mask and a person beside it",
+        "captionB": "there's a dog and a person in a mask beside it"
+    },
+    {
+        "captionA": "the baby on the phone is next to an adult",
+        "captionB": "the baby is next to an adult on the phone"
+    },
+    {
+        "captionA": "the person on the left has their arms up and the person on the right has their arms down",
+        "captionB": "the person on the right has their arms up and the person on the left has their arms down"
+    },
+    {
+        "captionA": "the person on the left is holding the phone and the person on the right is staring at it",
+        "captionB": "the person on the right is holding the phone and the person on the left is staring at it"
+    },
+    {
+        "captionA": "the orange on the left is moldy while the orange on the right is fresh",
+        "captionB": "the orange on the right is moldy while the orange on the left is fresh"
+    },
+    {
+        "captionA": "a pink scoop of ice cream on top and a blue scoop on bottom",
+        "captionB": "a pink scoop of ice cream on bottom and a blue scoop on top"
+    },
+    {
+        "captionA": "the glasses on the right are fuller than the glasses on the left",
+        "captionB": "the glasses on the left are fuller than the glasses on the right"
+    },
+    {
+        "captionA": "the person on the left is blowing bubbles and the person on the right is watching",
+        "captionB": "the person on the right is blowing bubbles and the person on the left is watching"
+    },
+    {
+        "captionA": "there's more foam on the left than on the right",
+        "captionB": "there's more foam on the right than on the left"
+    },
+    {
+        "captionA": "a fish is jumping from left to right",
+        "captionB": "a fish is jumping from right to left"
+    },
+    {
+        "captionA": "they worked out then they drank water",
+        "captionB": "they drank water then they worked out"
+    },
+    {
+        "captionA": "the shrimp are peeled then the shrimp are cooked",
+        "captionB": "the shrimp are cooked then the shrimp are peeled"
+    },
+    {
+        "captionA": "the coffee is poured before it is ground",
+        "captionB": "it is ground before the coffee is poured"
+    },
+    {
+        "captionA": "the potato is washed and then it is cut",
+        "captionB": "the potato is cut and then it is washed"
+    },
+    {
+        "captionA": "the banana is peeled then it is sliced",
+        "captionB": "the banana is sliced then it is peeled"
+    },
+    {
+        "captionA": "the dog is swimming and the person is standing",
+        "captionB": "the dog is standing and the person is swimming"
+    },
+    {
+        "captionA": "the person is jumping while the cat is sitting",
+        "captionB": "the person is sitting while the cat is jumping"
+    },
+    {
+        "captionA": "a cat is lying down and a person is stretching",
+        "captionB": "a cat is stretching and a person is lying down"
+    },
+    {
+        "captionA": "some people are standing but more are sitting",
+        "captionB": "some people are sitting but more are standing"
+    },
+    {
+        "captionA": "The kid throws the pancake and the adult sees it",
+        "captionB": "The kids see the pancake and the adult throws it"
+    },
+    {
+        "captionA": "painting gray walls white",
+        "captionB": "painting white walls gray"
+    },
+    {
+        "captionA": "a shorter person wearing blue standing next to a taller person",
+        "captionB": "a taller person wearing blue standing next to a shorter person"
+    },
+    {
+        "captionA": "a person wearing a bear mask in blue on the left hand side of a person wearing a panda mask with glasses in pink",
+        "captionB": "a person wearing a panda mask with glasses in blue on the left hand side of a person wearing a bear mask in pink"
+    },
+    {
+        "captionA": "a car containing many a box",
+        "captionB": "a box containing many a car"
+    },
+    {
+        "captionA": "left is red and right is blue",
+        "captionB": "left is blue and right is red"
+    },
+    {
+        "captionA": "many a table tennis racket, just one ball",
+        "captionB": "just one table tennis racket, many a ball"
+    },
+    {
+        "captionA": "four lions, no tigers",
+        "captionB": "no lions, four tigers"
+    },
+    {
+        "captionA": "a small spherical object is heavier than a big spherical object",
+        "captionB": "a big spherical object is heavier than a small spherical object"
+    },
+    {
+        "captionA": "an older person blocking a younger person",
+        "captionB": "a younger person blocking an older person"
+    },
+    {
+        "captionA": "white land and black water",
+        "captionB": "black land and white water"
+    },
+    {
+        "captionA": "the cube is smaller than the shape whose lateral faces meet at a vertex",
+        "captionB": "the shape whose lateral faces meet at a vertex is smaller than the cube"
+    },
+    {
+        "captionA": "more bicycles than cars",
+        "captionB": "more cars than bicycles"
+    },
+    {
+        "captionA": "there are more apples than pears",
+        "captionB": "there are more pears than apples"
+    },
+    {
+        "captionA": "there is more love than hate",
+        "captionB": "there is more hate than love"
+    },
+    {
+        "captionA": "more water than oil",
+        "captionB": "more oil than water"
+    },
+    {
+        "captionA": "a person cries while another person wearing jewelry above their shoulders consoles",
+        "captionB": "a person consoles while another person wearing jewelry above their shoulders cries"
+    },
+    {
+        "captionA": "a person with long hair eating a meat-based product while a person with short hair snacks on some fries",
+        "captionB": "a person with short hair eating a meat-based product while a person with long hair snacks on some fries"
+    },
+    {
+        "captionA": "water below the boat",
+        "captionB": "boat below the water"
+    },
+    {
+        "captionA": "the one in front is faster than the other one",
+        "captionB": "the other one is faster than the one in front"
+    },
+    {
+        "captionA": "You can catch more flies with honey than you can with vinegar",
+        "captionB": "You can catch more flies with vinegar than you can with honey"
+    },
+    {
+        "captionA": "It starts with \"A\" and ends with \"Z\"",
+        "captionB": "It starts with \"Z\" and ends with \"A\""
+    },
+    {
+        "captionA": "a shadow within the line",
+        "captionB": "a line within the shadow"
+    },
+    {
+        "captionA": "the brave in the face of fear",
+        "captionB": "fear in the face of the brave"
+    },
+    {
+        "captionA": "I need my strength back",
+        "captionB": "I need my back strength"
+    },
+    {
+        "captionA": "the one in the middle is taller than the ones on the side are",
+        "captionB": "the ones on the side are taller than the one in the middle is"
+    },
+    {
+        "captionA": "fish flying",
+        "captionB": "fly fishing"
+    },
+    {
+        "captionA": "the red car is behind the blue car",
+        "captionB": "the blue car is behind the red car"
+    },
+    {
+        "captionA": "the driver wearing a shirt is in front of the other person wearing a sleeveless top",
+        "captionB": "the driver wearing a sleeveless top is in front of the other person wearing a shirt"
+    },
+    {
+        "captionA": "an object that rolls is on some wood",
+        "captionB": "some wood is on an object that rolls"
+    },
+    {
+        "captionA": "a cat viewing a human on a screen",
+        "captionB": "a human viewing a cat on a screen"
+    },
+    {
+        "captionA": "a normal person wishing they were a superhero",
+        "captionB": "a superhero wishing they were a normal person"
+    },
+    {
+        "captionA": "a mike in the right hand while raising the left",
+        "captionB": "a mike in the left hand while raising the right"
+    },
+    {
+        "captionA": "a person with long hair behind a person with a beard",
+        "captionB": "a person with a beard behind a person with long hair"
+    },
+    {
+        "captionA": "the person with hair to their shoulders has brown eyes and the other person's are blue",
+        "captionB": "the person with hair to their shoulders has blue eyes and the other person's are brown"
+    },
+    {
+        "captionA": "a human being on a device that intercepts the sun's rays",
+        "captionB": "a device that intercepts the sun's rays on a human being"
+    },
+    {
+        "captionA": "more humans than phones",
+        "captionB": "more phones than humans"
+    },
+    {
+        "captionA": "a person is in the tube",
+        "captionB": "a tube is in the person"
+    },
+    {
+        "captionA": "the person's head is above the rest of their body",
+        "captionB": "the rest of their body is above the person's head"
+    },
+    {
+        "captionA": "person overboard",
+        "captionB": "person over board"
+    },
+    {
+        "captionA": "more red buttons than blue",
+        "captionB": "more blue buttons than red"
+    },
+    {
+        "captionA": "the object at the top left is purple and the one at the bottom right of the group is red",
+        "captionB": "the object at the bottom right is purple and the one at the top left of the group is red"
+    },
+    {
+        "captionA": "flat at the bottom and pointy on top",
+        "captionB": "flat on top and pointy at the bottom"
+    },
+    {
+        "captionA": "seat numbers increasing from left to right",
+        "captionB": "seat numbers increasing from right to left"
+    },
+    {
+        "captionA": "the number on the right is larger than the number on the left",
+        "captionB": "the number on the left is larger than the number on the right"
+    },
+    {
+        "captionA": "more hair on the person's face than on their head",
+        "captionB": "more hair on the person's head than on their face"
+    },
+    {
+        "captionA": "the knife on the left and the fork on the right",
+        "captionB": "the knife on the right and the fork on the left"
+    },
+    {
+        "captionA": "food on their eyes",
+        "captionB": "eyes on their food"
+    },
+    {
+        "captionA": "cars of bits",
+        "captionB": "bits of cars"
+    },
+    {
+        "captionA": "a person on top of the world",
+        "captionB": "the world on top of a person"
+    },
+    {
+        "captionA": "two people; the one on the right has curly hair and the one on the left doesn't",
+        "captionB": "two people; the one on the left has curly hair and the one on the right doesn't"
+    },
+    {
+        "captionA": "first the cream, then the jam",
+        "captionB": "first the jam, then the cream"
+    },
+    {
+        "captionA": "more kisses than hugs",
+        "captionB": "more hugs than kisses"
+    },
+    {
+        "captionA": "an inflatable flamingo on a person",
+        "captionB": "a person on an inflatable flamingo"
+    },
+    {
+        "captionA": "a pink bird with a white beak",
+        "captionB": "a white bird with a pink beak"
+    },
+    {
+        "captionA": "a large pink inflatable flamingo along with some other lilos on the water including one that is mostly white",
+        "captionB": "a large white inflatable flamingo along with some other lilos on the water including one that is mostly pink"
+    },
+    {
+        "captionA": "there are more eyes in the image than there are on a typical human",
+        "captionB": "there are more eyes on a typical human than there are in the image"
+    },
+    {
+        "captionA": "the confident doctor's stethoscope is around their neck, and their jacket is over their name tag",
+        "captionB": "the confident doctor's stethoscope is around their neck, and their name tag is over their jacket"
+    },
+    {
+        "captionA": "few wind turbines and many clouds",
+        "captionB": "few clouds and many wind turbines"
+    },
+    {
+        "captionA": "an adult is reading to their young child",
+        "captionB": "their young child is reading to an adult"
+    },
+    {
+        "captionA": "the shopping basket is full and the shelves on the person's right are empty",
+        "captionB": "the shelves on the person's right are full and the shopping basket is empty"
+    },
+    {
+        "captionA": "Young person playing baseball with a green bat and blue ball",
+        "captionB": "Young person playing baseball with a blue bat and green ball"
+    },
+    {
+        "captionA": "painting the white wall red",
+        "captionB": "painting the red wall white"
+    },
+    {
+        "captionA": "wearing a red jacket over blue",
+        "captionB": "wearing a blue jacket over red"
+    },
+    {
+        "captionA": "I had cleaned my car",
+        "captionB": "I had my car cleaned"
+    },
+    {
+        "captionA": "unfortunate poor people",
+        "captionB": "poor unfortunate people"
+    },
+    {
+        "captionA": "there are less gloves than masks",
+        "captionB": "there are less masks than gloves"
+    },
+    {
+        "captionA": "there are more pineapples than boxes",
+        "captionB": "there are more boxes than pineapples"
+    },
+    {
+        "captionA": "the outer bristles are blue and the inner ones are white",
+        "captionB": "the outer bristles are white and the inner ones are blue"
+    },
+    {
+        "captionA": "the first vowel is E and the last consonant is N",
+        "captionB": "the last vowel is E and the first consonant is N"
+    },
+    {
+        "captionA": "the cat on the left of the photo has its right paw ahead of its left",
+        "captionB": "the cat on the left of the photo has its left paw ahead of its right"
+    },
+    {
+        "captionA": "the text is black on white",
+        "captionB": "the text is white on black"
+    },
+    {
+        "captionA": "the dog sits and the cat stands",
+        "captionB": "the dog stands and the cat sits"
+    },
+    {
+        "captionA": "the person with facial hair cycles and the other person runs",
+        "captionB": "the person with facial hair runs and the other person cycles"
+    },
+    {
+        "captionA": "using the laptop while the guitar is close by",
+        "captionB": "using the guitar while the laptop is close by"
+    },
+    {
+        "captionA": "a person in a blue coat with a brown-ish coffee cup",
+        "captionB": "a person in a brown-ish coat with a blue coffee cup"
+    },
+    {
+        "captionA": "space in a star",
+        "captionB": "a star in space"
+    },
+    {
+        "captionA": "star of death",
+        "captionB": "death of star"
+    },
+    {
+        "captionA": "the younger person is making noise while the other is silent",
+        "captionB": "the younger person is silent while the other is making noise"
+    },
+    {
+        "captionA": "the one on the left is happy and the other is sad",
+        "captionB": "the one on the left is sad and the other is happy"
+    },
+    {
+        "captionA": "the person on the left is dancing and the person on the very right is sitting on the sofa",
+        "captionB": "the person on the left is sitting on the sofa and the person on the very right is dancing"
+    },
+    {
+        "captionA": "the person on the left is crying sadly while the one on the right is smiling happily",
+        "captionB": "the person on the left is smiling happily while the one on the right is crying sadly"
+    },
+    {
+        "captionA": "the large person is drinking from the small coffee cup",
+        "captionB": "the small person is drinking from the large coffee cup"
+    },
+    {
+        "captionA": "hot rubber and cool metal",
+        "captionB": "cool rubber and hot metal"
+    },
+    {
+        "captionA": "the triangular shape is beneath the square one",
+        "captionB": "the square shape is beneath the triangular one"
+    },
+    {
+        "captionA": "rough outside but smooth inside",
+        "captionB": "smooth outside but rough inside"
+    },
+    {
+        "captionA": "the green one is fast and the one in white is comparatively slow",
+        "captionB": "the green one is slow and the one in white is comparatively fast"
+    },
+    {
+        "captionA": "there are more humans than balls",
+        "captionB": "there are more balls than humans"
+    },
+    {
+        "captionA": "there are more legs than wheels",
+        "captionB": "there are more wheels than legs"
+    },
+    {
+        "captionA": "a group of three people with longer hair and two with short hair in a business context",
+        "captionB": "a group of two people with longer hair and three with short hair in a business context"
+    },
+    {
+        "captionA": "the gesture of the person sitting down is supporting the understanding of the person standing up",
+        "captionB": "the gesture of the person standing up is supporting the understanding of the person sitting down"
+    },
+    {
+        "captionA": "the circle is above the cross",
+        "captionB": "the cross is above the circle"
+    },
+    {
+        "captionA": "aerial view of a green tree in the brown freshly turned soil next to a green field",
+        "captionB": "aerial view of a green tree in a green field next to the brown freshly turned soil"
+    },
+    {
+        "captionA": "physical therapist inspecting blue elastic therapeutic kinesio tape over pink",
+        "captionB": "physical therapist inspecting pink elastic therapeutic kinesio tape over blue"
+    },
+    {
+        "captionA": "the skipping rope color is different to the shoelaces but similar to the shoes",
+        "captionB": "the skipping rope color is similar to the shoelaces but different to the shoes"
+    },
+    {
+        "captionA": "the blue balloon is being lifted by the weight",
+        "captionB": "the weight is being lifted by the blue balloon"
+    },
+    {
+        "captionA": "the sea is rough but the rocks are smooth",
+        "captionB": "the sea is smooth but the rocks are rough"
+    },
+    {
+        "captionA": "the melting white food is cold while the brown is warm",
+        "captionB": "the melting white food is warm while the brown is cold"
+    },
+    {
+        "captionA": "the person with a beard is smiling while the person with long hair is not",
+        "captionB": "the person with long hair is smiling while the person with a beard is not"
+    },
+    {
+        "captionA": "the pet on the right is white and the one on the left is not",
+        "captionB": "the pet on the left is white and the one on the right is not"
+    },
+    {
+        "captionA": "the outlet carrying water from the faucet to the shower head is near the hot tap not the cold",
+        "captionB": "the outlet carrying water from the faucet to the shower head is near the cold tap not the hot"
+    },
+    {
+        "captionA": "the larger ball is heavier and the smaller one is lighter",
+        "captionB": "the larger ball is lighter and the smaller one is heavier"
+    },
+    {
+        "captionA": "The adult with the magnifying glass looks at the kid",
+        "captionB": "The adult looks at the kid with the magnifying glass"
+    },
+    {
+        "captionA": "a dog is on a blanket with spots",
+        "captionB": "a blanket is on a dog with spots"
+    },
+    {
+        "captionA": "There is a mouse cake for a birthday",
+        "captionB": "There is a birthday cake for a mouse"
+    },
+    {
+        "captionA": "The cold-blooded animal isn't happy in warm water",
+        "captionB": "The warm-blooded animal isn't happy in cold water"
+    },
+    {
+        "captionA": "The white queen is taking the black king",
+        "captionB": "The black queen is taking the white king"
+    },
+    {
+        "captionA": "visiting animals at home can be fun",
+        "captionB": "animals visiting at home can be fun"
+    },
+    {
+        "captionA": "the person is not happy with the cat",
+        "captionB": "the cat is not happy with the person"
+    },
+    {
+        "captionA": "the person is too big for the small door",
+        "captionB": "the door is too small for the big person"
+    },
+    {
+        "captionA": "a taller person is covering the eyes of a shorter person",
+        "captionB": "a shorter person is covering the eyes of a taller person"
+    },
+    {
+        "captionA": "the plant is eating the bug",
+        "captionB": "the bug is eating the plant"
+    },
+    {
+        "captionA": "every bug has a leaf",
+        "captionB": "every leaf has a bug"
+    },
+    {
+        "captionA": "the green leaves will soon be red as the seasons change",
+        "captionB": "the red leaves will soon be green as the seasons change"
+    },
+    {
+        "captionA": "the white wall will soon be painted blue",
+        "captionB": "the blue wall will soon be painted white"
+    },
+    {
+        "captionA": "the moon prevents the sun's rays from falling on the earth",
+        "captionB": "the earth prevents the sun's rays from falling on the moon"
+    },
+    {
+        "captionA": "all paper airplanes fly on a straight path except for one which takes a curved one",
+        "captionB": "all paper airplanes fly on a curved path except for one which takes a straight one"
+    },
+    {
+        "captionA": "the person is too big for the pants",
+        "captionB": "the pants is too big for the person"
+    },
+    {
+        "captionA": "a kid jumped then threw a basketball",
+        "captionB": "a kid threw a basketball then jumped"
+    },
+    {
+        "captionA": "one cheerlearder supporting multiple cheerleaders",
+        "captionB": "multiple cheerleaders supporting one cheerlearder"
+    },
+    {
+        "captionA": "two persons wearing one scarf",
+        "captionB": "one person wearing two scarfs"
+    },
+    {
+        "captionA": "human head on pet",
+        "captionB": "pet head on human"
+    },
+    {
+        "captionA": "the cow is over the moon",
+        "captionB": "the moon is over the cow"
+    },
+    {
+        "captionA": "someone babys a pet",
+        "captionB": "someone pets a baby"
+    },
+    {
+        "captionA": "cat house",
+        "captionB": "house cat"
+    },
+    {
+        "captionA": "gold for pan",
+        "captionB": "pan for gold"
+    },
+    {
+        "captionA": "water for plants",
+        "captionB": "plants for water"
+    },
+    {
+        "captionA": "the businessperson's down fall",
+        "captionB": "the businessperson's fall down"
+    },
+    {
+        "captionA": "outswam the person in the red swimcap",
+        "captionB": "the person in the red swimcap swamout"
+    },
+    {
+        "captionA": "manning a ship",
+        "captionB": "shiping a mann"
+    },
+    {
+        "captionA": "the person wearing a sweater stands in front of the person who isn't wearing a sweater",
+        "captionB": "the person who isn't wearing a sweater stands in front of the person wearing a sweater"
+    },
+    {
+        "captionA": "a person without glasses pushes a person with glasses sitting in a box",
+        "captionB": "a person with glasses pushes a person without glasses sitting in a box"
+    },
+    {
+        "captionA": "what is green will soon be yellow",
+        "captionB": "what is yellow will soon be green"
+    },
+    {
+        "captionA": "soon this animal not with a tail will have one",
+        "captionB": "soon this animal with a tail will not have one"
+    },
+    {
+        "captionA": "a mouse is touching a dog",
+        "captionB": "a dog is touching a mouse"
+    },
+    {
+        "captionA": "fishing for compliments",
+        "captionB": "compliments for fishing"
+    },
+    {
+        "captionA": "that person dusting off their hands",
+        "captionB": "that person hands off their dusting"
+    },
+    {
+        "captionA": "a person wearing black shoes cleaning a bookshelf with an orange duster while a person wearing green shoes drinks wine from an orange glass and relaxes",
+        "captionB": "a person wearing green shoes cleaning a bookshelf with an orange duster while a person wearing black shoes drinks wine from an orange glass and relaxes"
+    },
+    {
+        "captionA": "a person with short hair is happily ironing a light blue shirt while a person with long hair sits on a white couch",
+        "captionB": "a person with long hair is happily ironing a light blue shirt while a person with short hair sits on a white couch"
+    },
+    {
+        "captionA": "yellow duck shoes on",
+        "captionB": "yellow duck on shoes"
+    },
+    {
+        "captionA": "child in front facing row of yellow rubber ducks",
+        "captionB": "front facing child in row of yellow rubber ducks"
+    },
+    {
+        "captionA": "a bird cooking a person",
+        "captionB": "a person cooking a bird"
+    },
+    {
+        "captionA": "a person wearing yellow and a person wearing stripes jumping",
+        "captionB": "a jumping person wearing yellow and a person wearing stripes"
+    },
+    {
+        "captionA": "a person wearing yellow with their feet in the air and a person wearing stripes",
+        "captionB": "a person wearing stripes with their feet in the air and a person wearing yellow"
+    },
+    {
+        "captionA": "darker things become light in stripes",
+        "captionB": "light things in stripes become darker"
+    },
+    {
+        "captionA": "together hammering something",
+        "captionB": "hammering something together"
+    },
+    {
+        "captionA": "A person sits next to a baby using an orange screwdriver to assemble a white piece of furniture",
+        "captionB": "A baby sits next to a person using an orange screwdriver to assemble a white piece of furniture"
+    },
+    {
+        "captionA": "a worker in a yellow hat uses a drill to the left of where the opening in the wall is",
+        "captionB": "the opening in the wall is to the left of where a worker in a yellow hat uses a drill"
+    },
+    {
+        "captionA": "A small animal with curled hair",
+        "captionB": "A curled small animal with hair"
+    },
+    {
+        "captionA": "A right hand pulls a glove onto a left hand",
+        "captionB": "A left hand pulls a glove onto a right hand"
+    },
+    {
+        "captionA": "A dog and a person with their feet hanging out of a car window",
+        "captionB": "A dog with their feet hanging out of a car window and a person"
+    },
+    {
+        "captionA": "A person whispering into a dog's ear",
+        "captionB": "A dog whispering into a person's ear"
+    },
+    {
+        "captionA": "one ear that some donkey is whispering a secret into",
+        "captionB": "donkey ear that some one is whispering a secret into"
+    },
+    {
+        "captionA": "walking someone cut lines into green plants",
+        "captionB": "someone walking lines cut into green plants"
+    },
+    {
+        "captionA": "a volcano above water makes steam",
+        "captionB": "water above a volcano makes steam"
+    },
+    {
+        "captionA": "A child riding a bike and an adult",
+        "captionB": "A child and an adult riding a bike"
+    },
+    {
+        "captionA": "an adult putting a helmet on a child",
+        "captionB": "a child putting a helmet on an adult"
+    },
+    {
+        "captionA": "An adult wearing purple lying next to a child",
+        "captionB": "An adult lying next to a child wearing purple"
+    },
+    {
+        "captionA": "a fencer who is wearing black pants having a point scored against them by another fencer using a wheelchair",
+        "captionB": "a fencer having a point scored against them by another fencer who is wearing black pants using a wheelchair"
+    },
+    {
+        "captionA": "a person with long braids is exercising in front of a person without braids",
+        "captionB": "a person without braids is exercising in front of a person with long braids"
+    },
+    {
+        "captionA": "in the stadium, the person wearing gray outperformed the one wearing blue",
+        "captionB": "in the stadium, the person wearing blue outperformed the one wearing gray"
+    },
+    {
+        "captionA": "butchering white meat while wearing yellow but not red",
+        "captionB": "butchering red meat while wearing white but not yellow"
+    },
+    {
+        "captionA": "a child with a fake beard and an adult",
+        "captionB": "an adult with a fake beard and a child"
+    },
+    {
+        "captionA": "on halloween, a child dressed as an insect is to the right of a child dressed as a mammal",
+        "captionB": "on halloween, a child dressed as a mammal is to the right of a child dressed as an insect"
+    },
+    {
+        "captionA": "a modern office complex with many windows above a nicely landscaped lawn",
+        "captionB": "a nicely landscaped lawn above a modern office complex with many windows"
+    },
+    {
+        "captionA": "a tree is partially inside a parked car",
+        "captionB": "a parked car is partially inside a tree"
+    },
+    {
+        "captionA": "some are parking in a train",
+        "captionB": "some are training in a park"
+    },
+    {
+        "captionA": "an athlete running on water",
+        "captionB": "water running on an athlete"
+    },
+    {
+        "captionA": "a horse getting wet",
+        "captionB": "getting a horse wet"
+    },
+    {
+        "captionA": "the glasses full of water are above the person's head and leg",
+        "captionB": "the person's head and leg are above the glasses full of water"
+    },
+    {
+        "captionA": "a person is touching the head of a squirrel",
+        "captionB": "a squirrel is touching the head of a person"
+    },
+    {
+        "captionA": "a deer's nose is resting on a child's hand",
+        "captionB": "a child's hand is resting on a deer's nose"
+    },
+    {
+        "captionA": "two sparklers for one hand",
+        "captionB": "one sparkler for two hands"
+    },
+    {
+        "captionA": "an animal giving a person food",
+        "captionB": "a person giving an animal food"
+    },
+    {
+        "captionA": "a spider towering over a dog",
+        "captionB": "a dog towering over a spider"
+    },
+    {
+        "captionA": "a car going into a hollow tube",
+        "captionB": "a hollow tube going into a car"
+    },
+    {
+        "captionA": "two people wearing clothes of the same colors are on different side of the tennis net",
+        "captionB": "two people wearing clothes of different colors are on the same side of the tennis net"
+    },
+    {
+        "captionA": "living things drinking",
+        "captionB": "drinking living things"
+    },
+    {
+        "captionA": "a person near water using a lasso",
+        "captionB": "near a person using a water lasso"
+    },
+    {
+        "captionA": "a person spraying water on someone else and a person on a bike",
+        "captionB": "a person spraying water on a person on a bike and someone else"
+    },
+    {
+        "captionA": "a person stretching behind a brown dog",
+        "captionB": "a brown dog stretching behind a person"
+    },
+    {
+        "captionA": "a person carrying more than one flotation device",
+        "captionB": "more than one flotation device carrying a person"
+    },
+    {
+        "captionA": "two kids on a pool floatie and one kid swimming",
+        "captionB": "one kid on a pool floatie and two kids swimming"
+    },
+    {
+        "captionA": "gears for moving something",
+        "captionB": "moving gears for something"
+    },
+    {
+        "captionA": "looking from above at a collection of similar objects below",
+        "captionB": "looking from below at a collection of similar objects above"
+    },
+    {
+        "captionA": "a toy herbivore stands on top of at least one toy carnivore",
+        "captionB": "at least one toy herbivore stands on top of a toy carnivore"
+    },
+    {
+        "captionA": "a person supports a small chair",
+        "captionB": "a chair supports a small person"
+    },
+    {
+        "captionA": "a person smiles at another person wearing a checked shirt who is hitting a ping pong ball",
+        "captionB": "a person wearing a checked shirt smiles at another person who is hitting a ping pong ball"
+    },
+    {
+        "captionA": "two versions of one person",
+        "captionB": "one version of two persons"
+    },
+    {
+        "captionA": "There are not pink flowers below the bird with yellow head feathers",
+        "captionB": "There are pink flowers not below the bird with yellow head feathers"
+    },
+    {
+        "captionA": "In a shopping cart, there are two animals that are the same species but are looking in different directions",
+        "captionB": "In a shopping cart, there are two animals that are the different species but are looking in same directions"
+    },
+    {
+        "captionA": "water is on and under a vessel",
+        "captionB": "a vessel is on and under water"
+    },
+    {
+        "captionA": "two bodies share with one head",
+        "captionB": "one bodies share with two head"
+    },
+    {
+        "captionA": "The worker wears something striped over a white undershirt with a collar",
+        "captionB": "The worker wears something white over a striped undershirt with a collar"
+    },
+    {
+        "captionA": "A person seen from above has a grid below them",
+        "captionB": "A person seen from below has a grid above them"
+    },
+    {
+        "captionA": "head in the clouds",
+        "captionB": "clouds in the head"
+    },
+    {
+        "captionA": "standing on feet",
+        "captionB": "on feet standing"
+    },
+    {
+        "captionA": "They have sunglasses over their hair",
+        "captionB": "They have hair over their sunglasses"
+    },
+    {
+        "captionA": "an odd number of sweet things on a plate with an even number of sides",
+        "captionB": "an even number of sweet things on a plate with an odd number of sides"
+    },
+    {
+        "captionA": "a large living thing in front of a large non-living thing",
+        "captionB": "a large non-living thing in front of a large living thing"
+    },
+    {
+        "captionA": "racing over it",
+        "captionB": "racing it over"
+    },
+    {
+        "captionA": "someone is overdoing it",
+        "captionB": "someone is doing it over"
+    }
+]

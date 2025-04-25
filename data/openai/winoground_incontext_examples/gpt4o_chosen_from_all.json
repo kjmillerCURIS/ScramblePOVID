@@ -1,0 +1,42 @@
+[
+    {
+        "captionA": "a bird eats a snake",
+        "captionB": "a snake eats a bird"
+    },
+    {
+        "captionA": "a tree smashed into a car",
+        "captionB": "a car smashed into a tree"
+    },
+    {
+        "captionA": "a bottle is in water",
+        "captionB": "water is in a bottle"
+    },
+    {
+        "captionA": "there are three bananas and two apples",
+        "captionB": "there are two bananas and three apples"
+    },
+    {
+        "captionA": "the taller person hugs the shorter person",
+        "captionB": "the shorter person hugs the taller person"
+    },
+    {
+        "captionA": "the happy person is on the right and the sad person is on the left",
+        "captionB": "the sad person is on the right and the happy person is on the left"
+    },
+    {
+        "captionA": "there are more skiers than snowboarders",
+        "captionB": "there are more snowboarders than skiers"
+    },
+    {
+        "captionA": "a cold drink on a hot day",
+        "captionB": "a hot drink on a cold day"
+    },
+    {
+        "captionA": "the taller person chops food and the shorter person eats food",
+        "captionB": "the taller person eats food and the shorter person chops food"
+    },
+    {
+        "captionA": "someone bakes the dough before the dough is eaten",
+        "captionB": "the dough is eaten before someone bakes the dough"
+    }
+]

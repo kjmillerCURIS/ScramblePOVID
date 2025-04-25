@@ -1,0 +1,42 @@
+[
+    {
+        "captionA": "the taller person hugs the shorter person",
+        "captionB": "the shorter person hugs the taller person"
+    },
+    {
+        "captionA": "the masked wrestler hits the unmasked wrestler",
+        "captionB": "the unmasked wrestler hits the masked wrestler"
+    },
+    {
+        "captionA": "the person without earrings pays the person with earrings",
+        "captionB": "the person with earrings pays the person without earrings"
+    },
+    {
+        "captionA": "a tree smashed into a car",
+        "captionB": "a car smashed into a tree"
+    },
+    {
+        "captionA": "there are more skiers than snowboarders",
+        "captionB": "there are more snowboarders than skiers"
+    },
+    {
+        "captionA": "the person in the middle is floating and some others are standing",
+        "captionB": "the person in the middle is standing and some others are floating"
+    },
+    {
+        "captionA": "the person with the ponytail packs stuff and other buys it",
+        "captionB": "the person with the ponytail buys stuff and other packs it"
+    },
+    {
+        "captionA": "the taller person's arm is around the shorter person's shoulder",
+        "captionB": "the shorter person's arm is around the taller person's shoulder"
+    },
+    {
+        "captionA": "it ran away while they pursued",
+        "captionB": "they ran away while it pursued"
+    },
+    {
+        "captionA": "there are three bananas and two apples",
+        "captionB": "there are two bananas and three apples"
+    }
+]

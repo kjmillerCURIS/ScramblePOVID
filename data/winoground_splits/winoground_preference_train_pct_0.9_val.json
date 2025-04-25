@@ -1,0 +1,1922 @@
+[
+    {
+        "id": 40,
+        "image": "images/20/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "there is a bit less milk chocolate than white chocolate"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "there is a bit less white chocolate than milk chocolate"
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "image": "images/20/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "there is a bit less white chocolate than milk chocolate"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "there is a bit less milk chocolate than white chocolate"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "image": "images/21/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a person sits and a dog stands"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a person stands and a dog sits"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "image": "images/21/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a person stands and a dog sits"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a person sits and a dog stands"
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "image": "images/48/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the passenger is riding inattentive to the road and the driver is driving attentive to the road"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the passenger is riding attentive to the road and the driver is driving inattentive to the road"
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "image": "images/48/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the passenger is riding attentive to the road and the driver is driving inattentive to the road"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the passenger is riding inattentive to the road and the driver is driving attentive to the road"
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "image": "images/50/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the person with green legs is running quite slowly and the red legged one runs faster"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the person with green legs is running faster and the red legged one runs quite slowly"
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "image": "images/50/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the person with green legs is running faster and the red legged one runs quite slowly"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the person with green legs is running quite slowly and the red legged one runs faster"
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "image": "images/54/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "someone is in a helicopter with a car"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "someone is with a helicopter in a car"
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "image": "images/54/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "someone is with a helicopter in a car"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "someone is in a helicopter with a car"
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "image": "images/58/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "it hatched before it was eaten"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "it was eaten before it hatched"
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "image": "images/58/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "it was eaten before it hatched"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "it hatched before it was eaten"
+            }
+        ]
+    },
+    {
+        "id": 142,
+        "image": "images/71/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the person wearing neutral colors poses and the person wearing brighter colors takes a picture"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the person wearing brighter colors poses and the person wearing neutral colors takes a picture"
+            }
+        ]
+    },
+    {
+        "id": 143,
+        "image": "images/71/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the person wearing brighter colors poses and the person wearing neutral colors takes a picture"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the person wearing neutral colors poses and the person wearing brighter colors takes a picture"
+            }
+        ]
+    },
+    {
+        "id": 174,
+        "image": "images/87/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "The uncaged bird has an opened cage door"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "The caged bird has an unopened cage door"
+            }
+        ]
+    },
+    {
+        "id": 175,
+        "image": "images/87/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "The caged bird has an unopened cage door"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "The uncaged bird has an opened cage door"
+            }
+        ]
+    },
+    {
+        "id": 198,
+        "image": "images/99/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the dog wears as a hat what someone would normally bite"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the dog bites what someone would normally wear as a hat"
+            }
+        ]
+    },
+    {
+        "id": 199,
+        "image": "images/99/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the dog bites what someone would normally wear as a hat"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the dog wears as a hat what someone would normally bite"
+            }
+        ]
+    },
+    {
+        "id": 204,
+        "image": "images/102/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "real cat with toy baby"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "toy cat with real baby"
+            }
+        ]
+    },
+    {
+        "id": 205,
+        "image": "images/102/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "toy cat with real baby"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "real cat with toy baby"
+            }
+        ]
+    },
+    {
+        "id": 212,
+        "image": "images/106/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "someone is wearing a black hat and yellow shirt"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "someone is wearing a yellow hat and black shirt"
+            }
+        ]
+    },
+    {
+        "id": 213,
+        "image": "images/106/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "someone is wearing a yellow hat and black shirt"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "someone is wearing a black hat and yellow shirt"
+            }
+        ]
+    },
+    {
+        "id": 242,
+        "image": "images/121/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the pool has no people and the area around it has a lot of people"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the pool has a lot of people and the area around it has no people"
+            }
+        ]
+    },
+    {
+        "id": 243,
+        "image": "images/121/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the pool has a lot of people and the area around it has no people"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the pool has no people and the area around it has a lot of people"
+            }
+        ]
+    },
+    {
+        "id": 260,
+        "image": "images/130/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the cup on the left is filled first and the cup on the right is filled second"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the cup on the left is filled second and the cup on the right is filled first"
+            }
+        ]
+    },
+    {
+        "id": 261,
+        "image": "images/130/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the cup on the left is filled second and the cup on the right is filled first"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the cup on the left is filled first and the cup on the right is filled second"
+            }
+        ]
+    },
+    {
+        "id": 298,
+        "image": "images/149/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "boat house"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "house boat"
+            }
+        ]
+    },
+    {
+        "id": 299,
+        "image": "images/149/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "house boat"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "boat house"
+            }
+        ]
+    },
+    {
+        "id": 302,
+        "image": "images/151/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "dress the display"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "display the dress"
+            }
+        ]
+    },
+    {
+        "id": 303,
+        "image": "images/151/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "display the dress"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "dress the display"
+            }
+        ]
+    },
+    {
+        "id": 320,
+        "image": "images/160/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "its tail is shorter than its body"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "its body is shorter than its tail"
+            }
+        ]
+    },
+    {
+        "id": 321,
+        "image": "images/160/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "its body is shorter than its tail"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "its tail is shorter than its body"
+            }
+        ]
+    },
+    {
+        "id": 338,
+        "image": "images/169/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a cat is underneath a red blanket"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a red blanket is underneath a cat"
+            }
+        ]
+    },
+    {
+        "id": 339,
+        "image": "images/169/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a red blanket is underneath a cat"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a cat is underneath a red blanket"
+            }
+        ]
+    },
+    {
+        "id": 348,
+        "image": "images/174/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "plant made out of a light bulb"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "light bulb made out of a plant"
+            }
+        ]
+    },
+    {
+        "id": 349,
+        "image": "images/174/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "light bulb made out of a plant"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "plant made out of a light bulb"
+            }
+        ]
+    },
+    {
+        "id": 374,
+        "image": "images/187/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "there's more foam on the left than on the right"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "there's more foam on the right than on the left"
+            }
+        ]
+    },
+    {
+        "id": 375,
+        "image": "images/187/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "there's more foam on the right than on the left"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "there's more foam on the left than on the right"
+            }
+        ]
+    },
+    {
+        "id": 376,
+        "image": "images/188/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a fish is jumping from left to right"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a fish is jumping from right to left"
+            }
+        ]
+    },
+    {
+        "id": 377,
+        "image": "images/188/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a fish is jumping from right to left"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a fish is jumping from left to right"
+            }
+        ]
+    },
+    {
+        "id": 378,
+        "image": "images/189/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "they worked out then they drank water"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "they drank water then they worked out"
+            }
+        ]
+    },
+    {
+        "id": 379,
+        "image": "images/189/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "they drank water then they worked out"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "they worked out then they drank water"
+            }
+        ]
+    },
+    {
+        "id": 382,
+        "image": "images/191/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the coffee is poured before it is ground"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "it is ground before the coffee is poured"
+            }
+        ]
+    },
+    {
+        "id": 383,
+        "image": "images/191/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "it is ground before the coffee is poured"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the coffee is poured before it is ground"
+            }
+        ]
+    },
+    {
+        "id": 428,
+        "image": "images/214/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a person cries while another person wearing jewelry above their shoulders consoles"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a person consoles while another person wearing jewelry above their shoulders cries"
+            }
+        ]
+    },
+    {
+        "id": 429,
+        "image": "images/214/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a person consoles while another person wearing jewelry above their shoulders cries"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a person cries while another person wearing jewelry above their shoulders consoles"
+            }
+        ]
+    },
+    {
+        "id": 470,
+        "image": "images/235/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a person is in the tube"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a tube is in the person"
+            }
+        ]
+    },
+    {
+        "id": 471,
+        "image": "images/235/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a tube is in the person"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a person is in the tube"
+            }
+        ]
+    },
+    {
+        "id": 486,
+        "image": "images/243/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "more hair on the person's face than on their head"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "more hair on the person's head than on their face"
+            }
+        ]
+    },
+    {
+        "id": 487,
+        "image": "images/243/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "more hair on the person's head than on their face"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "more hair on the person's face than on their head"
+            }
+        ]
+    },
+    {
+        "id": 504,
+        "image": "images/252/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a pink bird with a white beak"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a white bird with a pink beak"
+            }
+        ]
+    },
+    {
+        "id": 505,
+        "image": "images/252/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a white bird with a pink beak"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a pink bird with a white beak"
+            }
+        ]
+    },
+    {
+        "id": 514,
+        "image": "images/257/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "an adult is reading to their young child"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "their young child is reading to an adult"
+            }
+        ]
+    },
+    {
+        "id": 515,
+        "image": "images/257/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "their young child is reading to an adult"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "an adult is reading to their young child"
+            }
+        ]
+    },
+    {
+        "id": 540,
+        "image": "images/270/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the dog sits and the cat stands"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the dog stands and the cat sits"
+            }
+        ]
+    },
+    {
+        "id": 541,
+        "image": "images/270/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the dog stands and the cat sits"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the dog sits and the cat stands"
+            }
+        ]
+    },
+    {
+        "id": 552,
+        "image": "images/276/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the younger person is making noise while the other is silent"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the younger person is silent while the other is making noise"
+            }
+        ]
+    },
+    {
+        "id": 553,
+        "image": "images/276/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the younger person is silent while the other is making noise"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the younger person is making noise while the other is silent"
+            }
+        ]
+    },
+    {
+        "id": 586,
+        "image": "images/293/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the blue balloon is being lifted by the weight"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the weight is being lifted by the blue balloon"
+            }
+        ]
+    },
+    {
+        "id": 587,
+        "image": "images/293/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the weight is being lifted by the blue balloon"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the blue balloon is being lifted by the weight"
+            }
+        ]
+    },
+    {
+        "id": 616,
+        "image": "images/308/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a taller person is covering the eyes of a shorter person"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a shorter person is covering the eyes of a taller person"
+            }
+        ]
+    },
+    {
+        "id": 617,
+        "image": "images/308/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a shorter person is covering the eyes of a taller person"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a taller person is covering the eyes of a shorter person"
+            }
+        ]
+    },
+    {
+        "id": 626,
+        "image": "images/313/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the moon prevents the sun's rays from falling on the earth"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the earth prevents the sun's rays from falling on the moon"
+            }
+        ]
+    },
+    {
+        "id": 627,
+        "image": "images/313/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the earth prevents the sun's rays from falling on the moon"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "the moon prevents the sun's rays from falling on the earth"
+            }
+        ]
+    },
+    {
+        "id": 660,
+        "image": "images/330/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "what is green will soon be yellow"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "what is yellow will soon be green"
+            }
+        ]
+    },
+    {
+        "id": 661,
+        "image": "images/330/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "what is yellow will soon be green"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "what is green will soon be yellow"
+            }
+        ]
+    },
+    {
+        "id": 686,
+        "image": "images/343/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "together hammering something"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "hammering something together"
+            }
+        ]
+    },
+    {
+        "id": 687,
+        "image": "images/343/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "hammering something together"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "together hammering something"
+            }
+        ]
+    },
+    {
+        "id": 688,
+        "image": "images/344/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "A person sits next to a baby using an orange screwdriver to assemble a white piece of furniture"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "A baby sits next to a person using an orange screwdriver to assemble a white piece of furniture"
+            }
+        ]
+    },
+    {
+        "id": 689,
+        "image": "images/344/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "A baby sits next to a person using an orange screwdriver to assemble a white piece of furniture"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "A person sits next to a baby using an orange screwdriver to assemble a white piece of furniture"
+            }
+        ]
+    },
+    {
+        "id": 696,
+        "image": "images/348/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "A dog and a person with their feet hanging out of a car window"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "A dog with their feet hanging out of a car window and a person"
+            }
+        ]
+    },
+    {
+        "id": 697,
+        "image": "images/348/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "A dog with their feet hanging out of a car window and a person"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "A dog and a person with their feet hanging out of a car window"
+            }
+        ]
+    },
+    {
+        "id": 718,
+        "image": "images/359/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "butchering white meat while wearing yellow but not red"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "butchering red meat while wearing white but not yellow"
+            }
+        ]
+    },
+    {
+        "id": 719,
+        "image": "images/359/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "butchering red meat while wearing white but not yellow"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "butchering white meat while wearing yellow but not red"
+            }
+        ]
+    },
+    {
+        "id": 744,
+        "image": "images/372/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a spider towering over a dog"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a dog towering over a spider"
+            }
+        ]
+    },
+    {
+        "id": 745,
+        "image": "images/372/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a dog towering over a spider"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a spider towering over a dog"
+            }
+        ]
+    },
+    {
+        "id": 794,
+        "image": "images/397/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a large living thing in front of a large non-living thing"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a large non-living thing in front of a large living thing"
+            }
+        ]
+    },
+    {
+        "id": 795,
+        "image": "images/397/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a large non-living thing in front of a large living thing"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "a large living thing in front of a large non-living thing"
+            }
+        ]
+    },
+    {
+        "id": 798,
+        "image": "images/399/0.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "someone is overdoing it"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "someone is doing it over"
+            }
+        ]
+    },
+    {
+        "id": 799,
+        "image": "images/399/1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "someone is doing it over"
+            }
+        ],
+        "rejected_conversations": [
+            {
+                "from": "human",
+                "value": "<image>\ncaption:"
+            },
+            {
+                "from": "gpt",
+                "value": "someone is overdoing it"
+            }
+        ]
+    }
+]
