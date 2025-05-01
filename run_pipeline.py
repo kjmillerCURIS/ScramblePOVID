@@ -1,5 +1,8 @@
 import os
 import sys
+import copy
+from tqdm import tqdm
+from update_augmentation_policy_type_sensitive import update_augmentation_policy_type_sensitive
 
 
 #load and return data_source, which will have everything needed for doing data synthesis (e.g. original captions)
@@ -29,9 +32,33 @@ def finetune_model(params, data_buffer, model):
     assert(False)
 
 
+#returns (img, text) cosine similarity
+#will defer decision on whether img is a url or the actual image (probably the former)
+def model_inference(params, img, text, model):
+    assert(False)
+
+
+def get_model_results(params, data_buffer, model):
+    results = []
+    for datum in tqdm(data_buffer):
+        result = copy.deepcopy(datum) #can deal with this if memory consumption becomes too much
+        result['positive_cossim'] = model_inference(params, datum['img'], datum['positive_caption'], model)
+        result['negative_cossim'] = model_inference(params, datum['img'], datum['negative_caption'], model)
+        results.append(result)
+
+    return results
+
+
 #Step 3: run model on data in data_buffer, use results to update augmentation_policy, which will be returned
 def update_augmentation_policy(params, data_buffer, model, augmentation_policy):
-    assert(False)
+    results = get_model_results(params, data_buffer, model)
+    if params['type_sensitive']:
+        augmentation_policy = update_augmentation_policy_type_sensitive(params, results, augmentation_policy)
+    else:
+        print('Error: have not yet implemented type-agnostic policy update!')
+        assert(False)
+
+    return augmentation_policy
 
 
 #Step 4: use augmentation policy to augment data, add/replace to existing data_buffer, which will be returned
