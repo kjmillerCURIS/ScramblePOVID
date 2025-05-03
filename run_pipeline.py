@@ -3,6 +3,8 @@ import sys
 import copy
 from tqdm import tqdm
 from update_augmentation_policy_type_sensitive import update_augmentation_policy_type_sensitive
+from augment_data import augment_data as _augment_data
+from augment_data import initialize_augmentation_policy as _initialize_augmentation_policy
 
 
 #load and return data_source, which will have everything needed for doing data synthesis (e.g. original captions)
@@ -23,7 +25,7 @@ def setup_model(params):
 
 #return initial augmentation_policy
 def initialize_augmentation_policy(params):
-    assert(False)
+    return _initialize_augmentation_policy(params)
 
 
 #Step 2: use data from current "buffer" to finetune the "stupid" model
@@ -63,7 +65,7 @@ def update_augmentation_policy(params, data_buffer, model, augmentation_policy):
 
 #Step 4: use augmentation policy to augment data, add/replace to existing data_buffer, which will be returned
 def augment_data(params, data_source, data_buffer, augmentation_policy):
-    assert(False)
+    return _augment_data(params, data_source, data_buffer, augmentation_policy)
 
 
 #does a run of the full pipeline

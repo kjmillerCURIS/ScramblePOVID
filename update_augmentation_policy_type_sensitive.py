@@ -4,9 +4,11 @@ import numpy as np
 from tqdm import tqdm
 
 
-#suggest making easy_percentile=10, hard_percentile=90, overhard_percentile=97
-#FIXME: right now this uses the top few percentile to rule out "overhard" examples (where we suspect the meaning is basically the same)
-#consider doing this by other ways, such as using an LLM, and remember to incorporate that into this function (something like result['is_overhard'] bool flag would do the trick)
+#suggest making easy_percentile=10, hard_percentile=90, overhard_percentile=100
+#"overhard" means that the negative and positive are too similar in meaning to be helpful for finetuning
+#overhard_percentile=100 means nothing will be considered "overhard", but I'll leave the option in case things change
+#for now I'm seeing that NegCLIP can't really distinguish hard from overhard
+#we'll probably need to use an LLM to do that, in which case we could add a flag into results to let this function know which ones are overhard
 def update_augmentation_policy_type_sensitive(params, results, augmentation_policy):
     assert(params['type_sensitive'])
     vals = [result['negative_cossim'] - result['positive_cossim'] for result in results]
@@ -19,8 +21,8 @@ def update_augmentation_policy_type_sensitive(params, results, augmentation_poli
         aug_type = result['aug_type']
         val = result['negative_cossim'] - result['positive_cossim']
         is_easy = int(val < easy_threshold)
-        is_hard = int(val >= hard_threshold and val < overhard_threshold)
-        is_overhard = int(val >= overhard_threshold)
+        is_hard = int(val >= hard_threshold and val <= overhard_threshold)
+        is_overhard = int(val > overhard_threshold)
         numerators[aug_type] += is_hard
         if params['prob_type'] == 'hard_vs_easy':
             denominators[aug_type] += is_hard + is_easy
