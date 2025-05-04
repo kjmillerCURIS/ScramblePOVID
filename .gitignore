@@ -3,3 +3,4 @@ wandb
 clip-finetune.o*
 clip_finetune/runs
 *.pyc
+run_pipeline.sh
