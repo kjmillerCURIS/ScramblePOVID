@@ -1,0 +1,43 @@
+# Standard model used
+model_name: "ViT-B-32"
+pretrained: "openai"
+compile: False
+seed: 1337
+vision_heads: 12 #from clip paper appendix (used to inject lora)
+
+device: "cuda"
+workers: 12
+output_dir: "/projectnb/ivc-ml/ac25/Compositional_Reasoning/ScramblePOVID/clip_finetune/runs/output_r4_a8"
+
+wandb: True
+wandb_project: iterative-comp-reasoning
+
+#Using same train and val sets for now
+train_dataset: "/projectnb/ivc-ml/ac25/Compositional_Reasoning/ScramblePOVID/data/preference_data/coco_train_syn_cot_adv_ref_preference.csv"
+eval_dataset: "/projectnb/ivc-ml/ac25/Compositional_Reasoning/ScramblePOVID/data/preference_data/coco_train_syn_cot_adv_ref_preference.csv"
+datatype: "csv"
+csv_separator: ","
+image_col: "image_path"
+pos_col: "positive_caption"
+neg_col: "negative_caption"
+shuffle: True
+
+#Lora params
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+
+batch_size: 32
+gradient_accumulation_steps: 1
+gradient_checkpointing: False
+
+use_8bit_adam: False
+
+
+learning_rate: 5e-4
+epochs: 300
+warmup: 0.01
+save_interval: 30000
+eval_interval: 10000
+eval_steps: 100        #eval on 100 random batches from validation set
+

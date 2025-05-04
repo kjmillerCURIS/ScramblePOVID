@@ -1,0 +1,5 @@
+.scramble_env
+wandb
+clip-finetune.o*
+clip_finetune/runs
+*.pyc
