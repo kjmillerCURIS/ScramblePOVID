@@ -6,15 +6,21 @@ import os
 import numpy as np
 import open_clip
 import torch
+from torch.utils.data import DataLoader
 import torch.nn.functional as F
 from accelerate import Accelerator
-from peft import LoraConfig, get_peft_model
+from peft import LoraConfig, get_peft_model, PeftModel
 from tqdm.auto import tqdm
 
-from clipora.config import TrainConfig, parse_yaml_to_config
-from clipora.data import get_dataloader
-from clipora.lora.inject import inject_linear_attention
-from clipora.scheduler.cosine import cosine_lr
+from open_clip import get_tokenizer
+from PIL import Image
+
+from .clipora.config import TrainConfig, parse_yaml_to_config
+from .clipora.data import get_dataloader
+from .clipora.lora.inject import inject_linear_attention
+from .clipora.scheduler.cosine import cosine_lr
+
+from failure_log.data import HNC_CATEGORIES, HNC_TEST
 
 logger = logging.getLogger(__name__)
 
@@ -45,9 +51,9 @@ def compute_clip_loss(model, images, pos_texts, neg_texts):
     return total_loss
 
 
-#EVAL CODE ALSO MODIFIED TO VALIDATE USING OUR LOSS INCLUDING NEGATIVE CAPTIONS
+#Eval code for computing clip style loss
 @torch.no_grad()
-def evaluate(model, dataloader, config):
+def evaluate_clip_loss(model, dataloader, config):
     out = {}
     model.eval()
     losses = torch.zeros(config.eval_steps)
@@ -59,9 +65,49 @@ def evaluate(model, dataloader, config):
     model.train()
     return out
 
+#Eval code for computing accuracy on val set 
+@torch.no_grad()
+def evaluate(model, dataloader, config, preprocess_val):
+    out = {}
+    model.eval()
+
+    preprocess = preprocess_val
+    tokenizer = get_tokenizer(config.model_name)
+
+    correct = 0 
+    total = 0
+
+    for category in HNC_CATEGORIES:
+        eval_data = HNC_TEST(category=category)
+
+        dataloader = DataLoader(eval_data, batch_size=config.batch_size, shuffle=False)
+
+        for (image_paths,), (pos_captions, neg_captions) in tqdm(dataloader, desc="Evaluating"):
+            # Preprocess images
+            images = [preprocess(Image.open(p).convert("RGB")) for p in image_paths]
+            images = torch.stack(images).to(config.device)
+
+            pos_tokens = tokenizer(pos_captions).to(config.device)
+            neg_tokens = tokenizer(neg_captions).to(config.device)
+
+            image_embeds, pos_embeds, _ = model(images, pos_tokens)
+            image_embeds, neg_embeds, _ = model(images, neg_tokens)
+
+            pos_similarity = torch.nn.functional.cosine_similarity(image_embeds.unsqueeze(1), pos_embeds.unsqueeze(0), dim=-1)
+            neg_similarity = torch.nn.functional.cosine_similarity(image_embeds.unsqueeze(1), neg_embeds.unsqueeze(0), dim=-1)
+
+            for i in range(len(image_paths)):
+                if pos_similarity[i, i].item() > neg_similarity[i, i].item():
+                    correct += 1
+                total += 1
+
+    out["val_acc"] = correct/total
+    model.train()
+    return out
+
 
 def init_model(config: TrainConfig):
-    model, preprocess_train, _ = open_clip.create_model_and_transforms(
+    model, preprocess_train, preprocess_val = open_clip.create_model_and_transforms(
         model_name=config.model_name,
         pretrained=config.pretrained,
     )
@@ -80,16 +126,26 @@ def init_model(config: TrainConfig):
             embed_dim=model_config["vision_cfg"]["width"],
             num_heads=config.vision_heads,
         )
-    lora_config = LoraConfig(
-        r=config.lora_rank,
-        lora_alpha=config.lora_alpha,
-        lora_dropout=config.lora_dropout,
-        target_modules=["qkv", "proj"],
-    )
-    model = get_peft_model(model, lora_config)
+
+    if config.resume_lora_path: 
+        print(f"Loading LoRA adapters from {config.resume_lora_path}")
+        model = PeftModel.from_pretrained(model, config.resume_lora_path, is_trainable=True)
+        model.print_trainable_parameters()
+    else:
+        lora_config = LoraConfig(
+            r=config.lora_rank,
+            lora_alpha=config.lora_alpha,
+            lora_dropout=config.lora_dropout,
+            target_modules=["qkv", "proj"],
+        )
+        model = get_peft_model(model, lora_config)
+
     if config.compile:
         model.compile()
-    return model, preprocess_train
+    
+    model.train()
+
+    return model, preprocess_train, preprocess_val
 
 
 def main(config: TrainConfig):
@@ -118,7 +174,7 @@ def main(config: TrainConfig):
         torch.manual_seed(seed)
         torch.cuda.manual_seed_all(seed)
 
-    model, preprocess_train = init_model(config)
+    model, preprocess_train, preprocess_val = init_model(config)
 
     train_dataloader = get_dataloader(config, preprocess_train, "train")
     eval_dataloader = get_dataloader(config, preprocess_train, "val")
@@ -193,14 +249,14 @@ def main(config: TrainConfig):
             if accelerator.is_local_main_process:
                 if global_step % config.eval_interval == 0:
                     if accelerator.is_local_main_process:
-                        print(f"Running eval")
-                        eval_loss = evaluate(model, eval_dataloader, config)
-                        accelerator.log(eval_loss, step=global_step)
+                        print(f"Running validation")
+                        val_acc = evaluate(model, eval_dataloader, config, preprocess_val)
+                        accelerator.log(val_acc, step=global_step)
                         progress_bar.write(
-                            f"Step: {global_step}, Eval loss: {eval_loss['eval_loss']}"
+                            f"Step: {global_step}, Val accuracy: {val_acc['val_acc']}"
                         )
-                        if eval_loss["eval_loss"] < best_val_loss:
-                            best_val_loss = eval_loss["eval_loss"]
+                        if val_acc["val_acc"] < best_val_loss:
+                            best_val_loss = val_acc["val_acc"]
                             save_path = os.path.join(
                                 config.output_dir, f"checkpoint_val_{global_step}"
                             )
