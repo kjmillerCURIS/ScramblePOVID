@@ -12,7 +12,8 @@ from PIL import Image
 from update_augmentation_policy_type_sensitive import update_augmentation_policy_type_sensitive
 from failure_log.data import HNC_CATEGORIES, HNC_TEST
 from models import get_model
-
+from clip_finetune.train import main as train_main
+from clip_finetune.clipora.config import TrainConfig, parse_yaml_to_config
 
 
 #load and return data_source, which will have everything needed for doing data synthesis (e.g. original captions)
@@ -55,11 +56,16 @@ def initialize_augmentation_policy(params):
 #Some considerations to make the whole process automatic
 #1. need to change data path each time to new csv 
 #2. need to figure out which model checkpoint to use for loading
+
 def finetune_model(params, data_buffer, model):
     train_script = os.path.abspath("clip_finetune/train.py")
     config_path = os.path.abspath("clip_finetune/train_config.yml")
 
-    subprocess.run(["python", train_script, "--config", config_path], check=True)
+    config = parse_yaml_to_config(config_path)
+    
+    train_main(config)
+
+    return None
 
 
 
@@ -93,7 +99,6 @@ def get_model_results(params, data_buffer, model):
     
     batch_size = params["eval_batch_size"]
     results = []
-    
 
     # Set up tokenizer and preprocessor
     tokenizer = model.get_tokenizer()
@@ -126,7 +131,6 @@ def get_model_results(params, data_buffer, model):
                     "negative_cossim": neg_scores[i, i].item()
                 })
 
-    print("CLIP + SCRAMBLe")
 
     metrics = compute_metrics(results)
     for k, v in metrics.items():
@@ -165,8 +169,8 @@ def run_pipeline(params, run_id):
 
     model = setup_model(params)
     data_buffer = None
-    #model = finetune_model(params, data_buffer, model)
-    results = get_model_results(params, data_buffer, model)
+    model = finetune_model(params, data_buffer, model)
+    #results = get_model_results(params, data_buffer, model)
 
 
     # for t in range(NUM_ITERS):
@@ -181,7 +185,7 @@ if __name__ == "__main__":
     #Model can be "CLIP" or "CLIP_FT"
     params = {
         "model_type": "CLIP_FT",
-        "checkpoint_path": "clip_finetune/runs/output_r4_a8/checkpoint_360000",
+        "checkpoint_path": "clip_finetune/runs/output_r8_a16_iter1/checkpoint_val_30000",
         "type_sensitive": True,
         "eval_batch_size": 32,
         "device": torch.device("cuda"),
