@@ -69,12 +69,12 @@ def augment_data_one(params, caption, augmentation_policy):
         print(all_modification_types)
         mixing_weights = {modification_type : 1 / len(modification_types) for modification_type in modification_types}
 
-    modification_type = random.choices(sorted(mixing_weights.keys()), weights=[mixing_weights[k] for k in sorted(mixing_weights.keys())], k=1)[0]
-    print(modification_type)
-    query = prompt.format(ANCHOR=caption, TYPE=modification_type)
     num_attempts = 0
     while True:
         num_attempts += 1
+        modification_type = random.choices(sorted(mixing_weights.keys()), weights=[mixing_weights[k] for k in sorted(mixing_weights.keys())], k=1)[0]
+        print(modification_type)
+        query = prompt.format(ANCHOR=caption, TYPE=modification_type)
         reply = ask_deepseek(query)
         is_possible = extract_possible(reply)
         print(is_possible)
@@ -82,11 +82,11 @@ def augment_data_one(params, caption, augmentation_policy):
             n = len(reply.lower().split('output sentence:')[-1])
             negative_example = reply[-n:].strip()
             print(negative_example)
-            return negative_example, num_attempts
+            return negative_example, modification_type, num_attempts
         else:
             print(reply)
             if num_attempts >= params['max_num_aug_attempts']:
-                return None, num_attempts
+                return None, modification_type, num_attempts
 
 
 #Step 4: use augmentation policy to augment data, add/replace to existing data_buffer, which will be returned
@@ -95,7 +95,7 @@ def augment_data(params, data_source, data_buffer, augmentation_policy):
     for datum in data_source:
         new_datum = copy.deepcopy(datum)
         caption = datum['positive_caption'] #FIXME: double-check that this is actually what Samarth does, as opposed to augmenting an "anchor" to both T+ and T-
-        negative_caption, _ = augment_data_one(params, caption, augmentation_policy)
+        negative_caption, _, __ = augment_data_one(params, caption, augmentation_policy)
         if negative_caption is None:
             print('??')
             continue

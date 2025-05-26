@@ -4,7 +4,7 @@ import sys
 
 BETTER_HARD_NEGATIVE_PROMPT = '''
     Given the following input sentence describing a scene:
-        "{CAPTION}"
+        "{ANCHOR}"
     your task is to generate a hard negative — a fluent and grammatically correct sentence that describes a different scene from the input.
     You must modify the input according to the specified modification type:
         "{TYPE}"
